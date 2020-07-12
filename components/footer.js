@@ -8,6 +8,7 @@ export default function Footer() {
           <h3 className="text-4xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
             Creating an inclusive world with code.
           </h3>
+          <img src="assets/logo.png" alt="Nibbles N Bytes logo" className="h-32 md:h-40 ml-auto" />
         </div>
       </Container>
     </footer>

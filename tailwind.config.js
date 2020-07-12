@@ -3,10 +3,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
+        'persian-green': '#2A9D8F',
+        charcoal: '#264653',
+        'orange-yellow': '#E9C46A',
+        yellow: '#F6EE54',
+        orange: '#E76F51',
         cyan: '#79FFE1',
       },
       spacing: {

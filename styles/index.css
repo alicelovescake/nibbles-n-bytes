@@ -3,7 +3,6 @@
 /* Write your own custom base styles here */
 body {
   color: white;
-  @apply font-serif;
   background-color: black;
 }
 
@@ -25,7 +24,7 @@ body {
 }
 
 a.custom-underline:after {
-  background: #f4a261;
+  background: #ffc400;
 }
 
 a.custom-underline:hover:after {

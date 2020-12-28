@@ -1,12 +1,11 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Header() {
   return (
     <div className="mt-5 mb-10">
-      <Link href="/">
-        <a><img src="/assets/logo.png" className="h-24" /></a>
-      </Link>
+      <h4 className="text-center md:text-left text-3xl mt-5 md:pl-8 font-bold font-serif ">
+        Alice Zhao
+      </h4>
     </div>
-    
-  )
+  );
 }

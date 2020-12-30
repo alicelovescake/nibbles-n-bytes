@@ -1,6 +1,6 @@
 ---
 title: "In Progress: Today I Learned"
-excerpt: "The Twitter for learners and growers"
+excerpt: "Twitter for learners and growers"
 coverImage: "/assets/projects/til/cover.jpg"
 date: "2021-03-01"
 ogImage:

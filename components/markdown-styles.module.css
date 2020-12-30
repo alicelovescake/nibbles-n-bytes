@@ -16,3 +16,11 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown a {
+  @apply hover:underline text-brand-yellow;
+}
+
+.markdown ul {
+  @apply list-disc list-inside;
+}

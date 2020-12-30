@@ -18,6 +18,7 @@ export default function Index({ allProjects }) {
           <div className="grid grid-cols-3">
             {allProjects.map((project) => (
               <Polaroid
+                key={project.slug}
                 image={project.coverImage}
                 route={`/projects/${project.slug}`}
               >

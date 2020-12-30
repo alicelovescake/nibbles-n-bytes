@@ -7,7 +7,9 @@ body {
 }
 
 .custom-underline {
-  position: relative;
+  @apply relative font-bold;
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .custom-underline:after {

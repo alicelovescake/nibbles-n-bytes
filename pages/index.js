@@ -43,18 +43,20 @@ export default function Index() {
           <section className="mx-32 my-52 space-y-24">
             <p className="text-3xl leading-relaxed">
               I've eaten <span className="custom-underline">rotten shark</span>{" "}
-              in Iceland. I've floated in the{" "}
-              <span className="custom-underline">Dead Sea</span> at the lowest
-              elevation on Earth. I've trekked to the top of{" "}
-              <span className="custom-underline">Everest</span> at the highest
-              elevation. And I've travelled alone in places as far-flung as{" "}
-              <span className="custom-underline">South Africa.</span>
+              in Iceland, floated in the{" "}
+              <span className="custom-underline">Dead Sea</span>, and trekked to
+              the top of{" "}
+              <Link href="/posts/ain't-no-mountain-high-enough">
+                <a className="custom-underline">Everest</a>
+              </Link>{" "}
+              at the highest elevation on Earth (and almost passed out).
             </p>
             <p className="text-3xl leading-relaxed">
-              In July 2020, I quit my professional sales career to become a
-              student of code. This website serves as a place for me to reflect,
-              grow, and share{" "}
-              <span className="custom-underline">nibbles n' bytes </span>of my
+              In July 2020, I traded in my sales hat to dive into the world of
+              binary, a territory I've never chartered before. This website
+              serves as a place for me to reflect, grow, and share
+              <br />
+              <span className="custom-underline">nibbles n' bytes</span> of my
               journey.
             </p>
           </section>
@@ -64,7 +66,7 @@ export default function Index() {
 
             <div className="grid grid-cols-2 gap-4">
               <Polaroid
-                image="assets/index/project-life-calendar.png"
+                image="assets/projects/life-calendar/project-life-calendar.png"
                 route="/projects/life-calendar"
                 rotate="hover:rotate-3"
               >
@@ -75,7 +77,7 @@ export default function Index() {
               </Polaroid>
 
               <Polaroid
-                image="assets/index/podcaster-cover.png"
+                image="assets/projects/behind-the-stand/podcaster-cover.png"
                 route="/projects/behind-the-stand"
                 rotate="hover:-rotate-3"
               >
@@ -86,6 +88,13 @@ export default function Index() {
                 </p>
               </Polaroid>
             </div>
+            <p className="text-right text-3xl">
+              <Link href="/projects">
+                <a className="custom-underline font-extrabold">
+                  Show me more...
+                </a>
+              </Link>
+            </p>
           </section>
 
           <section className="mx-32 my-52 space-y-24">
@@ -102,12 +111,12 @@ export default function Index() {
             <Polaroid
               image="assets/index/kid.jpg"
               rotate="hover:rotate-3"
-              route="/posts"
+              route="/posts/my-journey"
             >
-              <p className="font-bold">A Year In Review: This is Water</p>
+              <p className="font-bold">My Journey To Code</p>
               <p className="text-xs">
-                A look back into the decisions of 2020 that's brought me here
-                today.
+                True belonging doesn’t require us to change who we are. It
+                requires us to be who we are.
               </p>
             </Polaroid>
           </section>

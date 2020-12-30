@@ -32,15 +32,15 @@ There were many people who wanted to help, including my CEO and my incredible ma
 
 ## Redefining my Potential
 
-One of the biggest milestones for me this year was building [my first project](../projects/life-calendar.md) with code. Granted, it’s just a chrome extension and there are only 6 people using it. But it has given me a small taste of the impact I can make with products.
+One of the biggest milestones for me this year was building [my first project](/projects/life-calendar) with code. Granted, it’s just a chrome extension and there are only 6 people using it. But it has given me a small taste of the impact I can make with products.
 
 I never _ever_ imagined myself being a coder. Don’t they all look like some version of Mark Zuckerburg? Dropping my phone on my face is a daily occurrence so surely handling the delicate syntax of code is way out of my league.
 
-The biggest challenge in learning how to code has been telling myself I can. I told myself I could run a half marathon and [I did](https://www.strava.com/activities/4273743160). I told myself I could solve an algorithm problem and [I did](https://github.com/alicelovescake/advent-of-code). I told myself I could build my own website and [I did](https://alicezhao.com). I still actively remind myself every day that I am not an imposter. If I don’t believe in myself, who will?
+The biggest challenge in learning how to code has been telling myself I can. I told myself I could run a half marathon and [I did](https://www.strava.com/activities/4273743160). I told myself I could solve an algorithm problem and [I did](https://github.com/alicelovescake/advent-of-code). I told myself I could build my own website and I did [(You are on it)](https://alicezhao.com). I still actively remind myself every day that I am not an imposter. If I don’t believe in myself, who will?
 
 ## Consistency > Perfection
 
-I’ll shamefully admit, I have shiny object syndrome. Often I’ll abandon old ideas to trade in for a new and exciting venture. When I get inspired, I take immediate action. I started my podcast [Behind the Stand](../projects/behind-the-stand.md) after I was accepted into a UBC startup incubator in October this year. I met ambitious entrepreneurs and itched to know more about who they were as people. I had over 200 listeners tune in for my first 3 episodes. But I’ve already failed releasing bi-monthly as I had intended. In fact, I haven’t released one in 1.5 months 😬.
+I’ll shamefully admit, I have shiny object syndrome. Often I’ll abandon old ideas to trade in for a new and exciting venture. When I get inspired, I take immediate action. I started my podcast [Behind the Stand](/projects/behind-the-stand) after I was accepted into a UBC startup incubator in October this year. I met ambitious entrepreneurs and itched to know more about who they were as people. I had over 200 listeners tune in for my first 3 episodes. But I’ve already failed releasing bi-monthly as I had intended. In fact, I haven’t released one in 1.5 months 😬.
 
 My goal in the new year is to not half ass it. My editing doesn’t need to be perfect, I just need to take consistent action. No more chasing shiny objects! It’s time to give my old ideas the love they deserve.
 

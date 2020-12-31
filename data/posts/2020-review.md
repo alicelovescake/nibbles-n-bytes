@@ -42,7 +42,7 @@ The biggest challenge in learning how to code has been telling myself I can. I t
 
 I’ll shamefully admit, I have shiny object syndrome. Often I’ll abandon old ideas to trade in for a new and exciting venture. When I get inspired, I take immediate action. I started my podcast [Behind the Stand](/projects/behind-the-stand) after I was accepted into a UBC startup incubator in October this year. I met ambitious entrepreneurs and itched to know more about who they were as people. I had over 200 listeners tune in for my first 3 episodes. But I’ve already failed releasing bi-monthly as I had intended. In fact, I haven’t released one in 1.5 months 😬.
 
-My goal in the new year is to not half ass it. My editing doesn’t need to be perfect, I just need to take consistent action. No more chasing shiny objects! It’s time to give my old ideas the love they deserve.
+My goal in the new year is to not half ass it. How we do anything is how we do everything. My editing doesn’t need to be perfect, I just need to take consistent action. No more chasing shiny objects! It’s time to give my old ideas the love they deserve.
 
 ## This is Water
 

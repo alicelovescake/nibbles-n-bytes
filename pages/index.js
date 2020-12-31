@@ -16,6 +16,7 @@ export default function Index() {
       <Layout>
         <Head>
           <title>Alice Zhao</title>
+          <meta property="og:image" content="/OG/cover.jpg" />
         </Head>
         <Container>
           <div className="relative h-screen">

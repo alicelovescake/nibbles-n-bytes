@@ -2,14 +2,14 @@
 title: "In Progress: Today I Learned"
 excerpt: "Twitter for learners and growers"
 coverImage: "/assets/projects/til/cover.jpg"
-date: "2021-03-01"
+date: "2020-11-01"
 ogImage:
   url: "/assets/projects/til/cover.jpg"
 ---
 
 Confession time? I've never had a Twitter account.
 
-Yet, on occasion, I like to lurk in the shadows of AOC's Twitter feed to chuckle at her quick clapbacks.
+Yet, on occasion, I like to lurk in the shadows of AOC's Twitter feed to chuckle at her quick clap-backs.
 That said, I am not a fan of social media. I know I'm not the only one who finds myself mindlessly scrolling to distract or numb. Soon enough, [precious time](life-calendar) has gone by and I'm left in a state of emptiness and disconnectedness.
 
 Is there a better way to connect?

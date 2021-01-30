@@ -11,7 +11,7 @@ export default function Polaroid({ rotate, route, scale, image, children }) {
 
   return (
     <div
-      className={`mx-auto transition-transform transform bg-white p-5 w-96 ${
+      className={`mx-auto transition-transform transform bg-white p-2.5 lg:p-5 w-48 lg:w-96 ${
         route ? "hover:cursor-pointer" : ""
       } ${rotate} ${scale}`}
       onClick={handleClick}
@@ -20,10 +20,10 @@ export default function Polaroid({ rotate, route, scale, image, children }) {
         style={{
           backgroundImage: `url(${image})`,
         }}
-        className="h-72 w-full bg-cover bg-no-repeat bg-center"
+        className={`h-36 lg:h-72 w-full bg-cover bg-no-repeat bg-center ${scale}`}
       ></div>
 
-      <div className="text-black h-24 flex flex-col justify-center">
+      <div className="text-black h-20 lg:h-24 flex flex-col justify-center">
         {children}
       </div>
     </div>

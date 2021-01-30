@@ -22,7 +22,7 @@ export default function Index() {
           <div className="relative h-screen">
             <Nav />
 
-            <div className="pt-36 mx-32 grid grid-cols-3">
+            <div className="lg:pt-36 lg:mx-32 lg:grid lg:grid-cols-3">
               <div className="text-4xl flex flex-col justify-between h-full col-span-2">
                 <div className="space-y-5">
                   <p>Hi! I'm Alice. 👋 </p>
@@ -30,7 +30,7 @@ export default function Index() {
                   <p>A reader who writes.</p>
                   <p>An explorer who never stops wandering.</p>
                 </div>
-                <IoIosArrowRoundDown className="text-6xl text-brand-yellow animate-bounce" />
+                <IoIosArrowRoundDown className="text-6xl text-brand-yellow animate-bounce mt-10 mb-32" />
               </div>
 
               <Polaroid
@@ -41,7 +41,7 @@ export default function Index() {
             </div>
           </div>
 
-          <section className="mx-32 my-52 space-y-24">
+          <section className="lg:mx-32 lg:my-52 lg:space-y-24 mt-80">
             <p className="text-3xl leading-relaxed">
               I've eaten <span className="custom-underline">rotten shark</span>{" "}
               in Iceland, floated in the{" "}
@@ -62,18 +62,20 @@ export default function Index() {
             </p>
           </section>
 
-          <section className="mx-32 my-52 space-y-24">
-            <p className="text-3xl">Check out my projects 👇</p>
+          <section className="lg:mx-32 lg:my-52 lg:space-y-24 mt-36">
+            <p className="text-center lg:text-left text-3xl mb-10">
+              Check out my projects 👇
+            </p>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-4">
               <Polaroid
-                image="assets/projects/life-calendar/project-life-calendar.png"
-                route="/projects/life-calendar"
+                image="assets/projects/tavern/cover.png"
+                route="/projects/tavern-hack"
                 rotate="hover:rotate-3"
               >
-                <p className="font-bold">Life Calendar</p>
+                <p className="font-bold">Tavern</p>
                 <p className="text-xs">
-                  Visualize your life in weeks to size the day
+                  Solving algorithms with friends while slaying evil wizards
                 </p>
               </Polaroid>
 
@@ -84,12 +86,12 @@ export default function Index() {
               >
                 <p className="font-bold">Behind the Stand Podcast</p>
                 <p className="text-xs">
-                  Stories of grit, resilience and triumph from the humans behind
-                  great ventures.
+                  Stories of grit & resilience from the humans behind great
+                  ventures.
                 </p>
               </Polaroid>
             </div>
-            <p className="text-right text-3xl">
+            <p className="text-center lg:text-right text-3xl mt-10">
               <Link href="/projects">
                 <a className="custom-underline font-extrabold">
                   Show me more...
@@ -98,14 +100,12 @@ export default function Index() {
             </p>
           </section>
 
-          <section className="mx-32 my-52 space-y-24">
-            <p className="relative z-10 text-3xl leading-relaxed">
+          <section className="lg:mx-32 lg:my-52 lg:space-y-24 my-36">
+            <p className="relative z-10 text-3xl leading-relaxed mb-10">
               When I'm not coding, I'm writing. Writing fills my cup. It keeps
-              me grounded and grateful. Check out{" "}
+              me grounded and grateful. Check out my{" "}
               <Link href="/posts">
-                <a className="custom-underline font-extrabold">
-                  my latest posts
-                </a>
+                <a className="custom-underline font-extrabold">latest posts</a>
               </Link>
             </p>
 

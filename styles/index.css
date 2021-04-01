@@ -12,6 +12,15 @@ body {
   text-decoration: none !important;
 }
 
+.custom-underline.text-black {
+  color: black !important;
+}
+
+section.blurb {
+  z-index: -2;
+  position: relative;
+}
+
 .custom-underline:after {
   content: "";
   position: absolute;

@@ -1,7 +1,6 @@
-
-import DateFormater from '../components/date-formater'
-import CoverImage from './cover-image'
-import Link from 'next/link'
+import DateFormater from "../components/date-formater";
+import CoverImage from "./cover-image";
+import Link from "next/link";
 
 export default function PostPreview({
   title,
@@ -23,7 +22,7 @@ export default function PostPreview({
       <div className="text-lg mb-4">
         <DateFormater dateString={date} />
       </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+      <p className="text-lg leading-loose mb-4">{excerpt}</p>
     </div>
-  )
+  );
 }

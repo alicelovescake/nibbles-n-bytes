@@ -15,7 +15,7 @@ export default function Index({ allProjects }) {
         <Container>
           <Nav />
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 pb-10">
             {allProjects.map((project) => (
               <Polaroid
                 key={project.slug}

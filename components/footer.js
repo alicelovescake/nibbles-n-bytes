@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-accent-1 border-t border-accent-2">
       <Container>
         <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-4 py-28 items-center">
-          <p className="text-center md:text-left text-3xl font-bold tracking-tighter leading-relaxed mb-10 lg:mb-0 lg:pr-4">
+          <p className="text-center md:text-left text-3xl font-bold tracking-tighter leading-loose mb-10 lg:mb-0 lg:pr-4">
             Building an inclusive world with code.
           </p>
           <p className="text-center md:text-right text-3xl font-bold">

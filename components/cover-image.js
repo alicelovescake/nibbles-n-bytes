@@ -6,7 +6,7 @@ export default function CoverImage({ title, src, slug }) {
     <div
       style={{
         backgroundImage: `url(${src})`,
-        height: "35rem",
+        height: "48rem",
       }}
       className="w-full bg-cover bg-no-repeat bg-center"
     ></div>

@@ -19,6 +19,8 @@ Future features I want to build include:
 - a variety of professional designs that represent their brand
 - DoorDash and Uber Eats integrations!
 
+Check out the [code I have so far on Github](https://github.com/alicelovescake/sheetmenu)
+
 **Technical challenges?**
 
 I've started to document my challenges in a dev journal. It helps me deeply reflect on the problems I'm solving. It's also a great place for me to look back on what I've accomplished so far. Coding is HARD. We need to celebrate every step of the way.

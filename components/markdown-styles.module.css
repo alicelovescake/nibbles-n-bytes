@@ -25,6 +25,10 @@
   @apply list-disc list-inside;
 }
 
+.markdown ol {
+  @apply list-decimal;
+}
+
 .markdown blockquote {
   @apply bg-gray-800 mx-8 p-6 rounded-lg bg-opacity-60;
 }

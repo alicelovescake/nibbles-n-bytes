@@ -113,7 +113,7 @@ export default function Index() {
             </p>
 
             <Polaroid
-              image="assets/index/kid.jpg"
+              image="assets/blog/my-journey/cover.jpg"
               rotate="hover:rotate-3"
               route="/posts/my-journey"
             >

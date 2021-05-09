@@ -1,14 +1,15 @@
 import Container from "../components/container";
 import Nav from "../components/nav";
 import Layout from "../components/layout";
+import Polaroid from "../components/polaroid";
+import { getAllContent } from "../lib/api";
+
 import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { IoIosArrowRoundDown } from "react-icons/io";
 
-import Polaroid from "../components/polaroid";
-
-export default function Index() {
+export default function Index({ latestPost }) {
   const router = useRouter();
 
   return (
@@ -113,15 +114,12 @@ export default function Index() {
             </p>
 
             <Polaroid
-              image="assets/blog/my-journey/cover.jpg"
+              image={latestPost.coverImage}
               rotate="hover:rotate-3"
-              route="/posts/my-journey"
+              route={`/post/${latestPost.slug}`}
             >
-              <p className="font-bold">My Journey To Code</p>
-              <p className="text-xs">
-                True belonging doesn’t require us to change who we are. It
-                requires us to be who we are.
-              </p>
+              <p className="font-bold">{latestPost.title}</p>
+              <p className="text-xs">{latestPost.excerpt}</p>
             </Polaroid>
           </section>
         </Container>
@@ -135,4 +133,20 @@ export default function Index() {
       `}</style>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const allPosts = getAllContent("posts", [
+    "title",
+    "date",
+    "slug",
+    "coverImage",
+    "excerpt",
+  ]);
+
+  const latestPost = allPosts[allPosts.length - 1];
+
+  return {
+    props: { latestPost },
+  };
 }

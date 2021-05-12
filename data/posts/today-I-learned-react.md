@@ -1,13 +1,13 @@
 ---
 title: "Today I Learned (TIL): React Hooks & Context"
-excerpt: "Interesting bits & bytes I learned about React Hooks & Context"
+excerpt: "Interesting bits & bytes I'm learning about React Hooks & Context"
 coverImage: "/assets/blog/react/cover.png"
-date: "2020-05-08"
+date: "2021-05-12"
 ogImage:
   url: "/assets/blog/react/cover.png"
 ---
 
-How can we build front end apps as fast and flexible as Spiderman? 🕸️
+How can we build frontend apps as fast and flexible as Spiderman? 🕸️
 
 ## What is React?
 
@@ -24,7 +24,7 @@ Don't look down on this simple game. It taught me a lot of techniques that are f
 
 Here are some highlights from what I learned today!
 
-**1. useState is a React Hook! So is useEffect! And you can create your own!**
+### TIL: useState is a React Hook! So is useEffect! And you can create your own!
 
 Hooks is a word that I've heard often but never understood what it meant. I've used useState and even useEffect many times, but I didn't realize they were hooks!
 
@@ -36,11 +36,11 @@ It's quiet simple to create your own custom hook. You first create a folder to s
 
 A key mistake I made was assuming you can reuse the state itself! No! Each call to a hook has a completely isolated state, like a new instance that starts from the initial null value you pass it. For example, I thought by calling the same custom hook in different components for Square and Board, that I could retain the state of the Board. No wonder why my board didn't change! 🤦‍♀️
 
-### TIL: Hooks are a way to reuse stateful logic, not state itself
+**TDLR: Hooks are a way to reuse stateful logic, not state itself**
 
-**2. You never modify the state directly!**
+### TIL: You never modify the state directly!
 
-Like I mentioned, useState is a hook and I can call it in any component. For instance, I can call `useState` and destructure the return values into a current state value and a function that lets you update it. It's like having local variables. I like it because I can call it multiple times to manage multiple state variables. For the Tic Tac Toe game, I used `useState` to manage the board. I gave it a null value of a multi-dimensional array. But whenever, I make a move on the board, and I need to update the board with an "X" or "O", I cannot modify my current board array directly! Rather, I should use `splice(0)` to create a new board to modify, then call `setBoard` with the new board. Interesting!
+Like I mentioned, useState is a hook and I can call it in any component. For instance, I can call `useState` and de-structure the return values into a current state value and a function that lets you update it. It's like having local variables. I like it because I can call it multiple times to manage multiple state variables. For the Tic Tac Toe game, I used `useState` to manage the board. I gave it a null value of a multi-dimensional array. But whenever, I make a move on the board, and I need to update the board with an "X" or "O", I cannot modify my current board array directly! Rather, I should use `splice(0)` to create a new board to modify, then call `setBoard` with the new board. Interesting!
 
 I learned in React, immutability is important for several reasons:
 
@@ -48,11 +48,11 @@ a. You have a history of actions that you can redo and undo.
 
 b. Easier for React to detect changes when it can compare an immutable object that is referenced to the previous one that has changed. Once React detect changes, it knows when a component needs re-rendering. That is the beauty of React right? It only updates what's necessary!
 
-### TIL: Change your data without mutation!
+**TLDR: Change your data without mutation!**
 
-**3. Best way to avoid prop drilling?**
+### TIL: Best way to avoid prop drilling is.....
 
-Remember that React allows me to pass data throughout my components to create interactive UIs?
+Remember how React allows me to pass data throughout my components to create interactive UIs?
 
 The standard way if you want 2 child components to communicate with each other, you declare the shared state in their parent component. The parent component can pass the state back down to the children by using props... which keeps everyone in sync.
 
@@ -70,9 +70,9 @@ Say hello to [function composition](https://www.youtube.com/watch?v=3XaXKiXtNjw)
 
 Note: Prop drilling is not completely bad because it allows the developer to explicitly track where values are being used and update accordingly if need. With global variables, you don't know where the data is initialized, updated, and used. If you are on a scavenger hunt, wouldn't you want a map than go blind?
 
-### TIL: Prop drilling can be a good thing, and it can be a bad thing. Consider the pros and cons of each approach to build flexible, explicit, and scalable components!
+**TLDR: Prop drilling can be a good thing, and it can be a bad thing. Consider the pros and cons of each approach to build flexible, explicit, and scalable components!**
 
-**4. React needs a `key` prop every time you map over an array.**
+## TIL: React needs a `key` prop every time you map over an array.
 
 The console is often mad at me, even more than my mother. This time, the console blared red warnings about a missing key prop. What the heck is that?
 
@@ -82,8 +82,10 @@ The lesson is that I should always choose a string that uniquely identifies that
 
 Now I don't need to have nightmares about angry `key` props!
 
-### TIL: Annoying errors on React helps me avoid bugs. The key prop is especially useful for controlling React component and element instances.
+**TLDR: Annoying errors on React helps me avoid bugs. The key prop is especially useful for controlling React component and element instances.**
 
-I learn something new every day with coding. Sometimes (ok most of the time) I feel like pulling my hair out. But when the lightbulb turns on, it's the greatest feeling ever!
+I learn something new every day with coding. Sometimes (ok most of the time) I feel like pulling my hair out. But when the lightbulb turns on, it's the greatest feeling!
 
-What did you learn today? Let me know!
+What did you learn today?
+
+Let me know!

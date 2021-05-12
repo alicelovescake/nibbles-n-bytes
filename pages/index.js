@@ -144,7 +144,7 @@ export async function getStaticProps() {
     "excerpt",
   ]);
 
-  const latestPost = allPosts[allPosts.length - 1];
+  const latestPost = allPosts[0];
 
   return {
     props: { latestPost },

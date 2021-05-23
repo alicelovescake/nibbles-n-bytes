@@ -2,12 +2,14 @@
 title: "Today I Learned (TIL): React Hooks & Context"
 excerpt: "Interesting bits & bytes I'm learning about React Hooks & Context"
 coverImage: "/assets/blog/react/cover.png"
-date: "2021-05-12"
+date: "2021-05-20"
 ogImage:
   url: "/assets/blog/react/cover.png"
 ---
 
 How can we build frontend apps as fast and flexible as Spiderman? 🕸️
+
+Let me share with you what I've learned today! 
 
 ## What is React?
 
@@ -62,7 +64,7 @@ _Is there a better way?_
 
 Say hello to [React Context](https://reactjs.org/docs/context.html)! This is a hook that provides a way to pass data through the component tree without having to pass props down manually at every level. It's kinda like having global variables. But should you put every state into context and thereby making it global? Is this the best way to scale?
 
-Some problems I've discovered with React Context is that when the provider gets a new value, all the components that consume that value are updated and have to render, even if it's a function component that only cares about part of the data. React can't do its job if it has to re-render everything every time... especially if we just change a simple state like if a modal is open.
+Some problems I've discovered with React Context is that when the provider gets a new value, all the components that consume that value are updated and have to render, even if it's a function component that only cares about part of the data. React can't do its job if it has to re-render everything every time... especially if we just change a simple state like if a modal is open. So use it sparingly on truly global states like an authenticated user, which makes sense to refresh all the components if the user's authentication status changes.
 
 _Is there a better way?_
 

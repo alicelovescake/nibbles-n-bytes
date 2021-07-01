@@ -73,13 +73,13 @@ export default function Index({ latestPost }) {
 
             <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-4">
               <Polaroid
-                image="assets/projects/tavern/cover.png"
-                route="/projects/tavern-hack"
+                image="assets/projects/sheet-menu/cover.png"
+                route="/projects/sheet-menu"
                 rotate="hover:rotate-3"
               >
-                <p className="font-bold">Tavern</p>
+                <p className="font-bold">SheetMenu</p>
                 <p className="text-xs">
-                  Solving algorithms with friends while slaying evil wizards
+                Helping restaurants deploy professional websites in under fifteen minutes
                 </p>
               </Polaroid>
 
@@ -116,7 +116,7 @@ export default function Index({ latestPost }) {
             <Polaroid
               image={latestPost.coverImage}
               rotate="hover:rotate-3"
-              route={`/post/${latestPost.slug}`}
+              route={`/posts/${latestPost.slug}`}
             >
               <p className="font-bold">{latestPost.title}</p>
               <p className="text-xs">{latestPost.excerpt}</p>

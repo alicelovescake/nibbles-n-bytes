@@ -9,7 +9,7 @@ ogImage:
 
 Building [SheetMenu](../projects/sheet-menu) has been a long and steady process. I just finished pulling restaurant data from Google Sheets. I use this data to display the restaurant's menu on their very own page!
 
-Whether users feels like **Umami Michelin** represents their style or **Spicy Modern** is the revamp they were looking for, templates and themes are now available. What's super cool is that their restaurant data dynamically updates based on the theme they select and whatever data they've input into their Google Sheet.
+Whether users feels like `Umami Michelin` represents their style or `Spicy Modern` is the revamp they were looking for, templates and themes are now available. What's super cool is that their restaurant data dynamically updates based on the theme they select and whatever data they've input into their Google Sheet.
 
 So time to move on to hooking up Stripe for payments right??
 

@@ -41,5 +41,5 @@
 }
 
 .markdown code {
-  @apply text-brand-yellow
+  @apply text-black font-bold text-sm bg-brand-yellow px-1.5 py-0.5 mx-0.5 rounded
 }

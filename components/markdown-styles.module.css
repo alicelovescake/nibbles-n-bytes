@@ -39,3 +39,7 @@
 .markdown blockquote p {
   @apply m-0;
 }
+
+.markdown code {
+  @apply text-brand-yellow
+}

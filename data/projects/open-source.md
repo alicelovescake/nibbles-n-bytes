@@ -30,20 +30,26 @@ What are projects I've contributed to?
 
 # Redwood JS
 
-### What do they do?
+## What do they do?
 [Redwood](https://redwoodjs.com/) is a relatively new framework that is on a mission to bringing full-stack to the JAMstack. Built on React, GraphQL, and Prisma, Redwood allows developers to build projects faster and better.
 
-### Why did I choose Redwood JS?
+## Why did I choose Redwood JS?
 I've built [projects](sheet-menu.md) on Redwood and love not only the tech but also the community! In fact, I joined a workshop ran by David Price, one of Redwood's co-founders (amazing, super nice person). I couldn't believe how welcoming everyone was to me. They've also invested heavily into supporting contributors...just check out the 8 pages of [notes here from the workshop](https://docs.google.com/document/d/16tMBiCMNZUrpGI_vQFvD6Cne8sKihGs0f1JraXfTIbg/edit?usp=sharing)
 
-### What did I work on?
+## What did I work on?
+**1. Fix Broken Scaffold**
+   
 There was an [issue](https://github.com/redwoodjs/redwood/issues/1482) in Redwood's codebase were templated code were generated for invalid models. 
+  
+  I reviewed the code to identify where the scaffold files were called and generated. Then implemented a robust solution where an error is thrown and an relevant error message is displayed to the user. 
+  
+  This was my first commit. I got feedback after my commit from a core maintainer to add a unit test. He also sent me relevant info on [snapshot testing on Jest Js](https://jestjs.io/docs/snapshot-testing) which I implemented. 
 
-I reviewed the code to identify where the scaffold files were called and generated. Then implemented a robust solution where an error is thrown and an relevant error message is displayed to the user. 
+**2. Add new CLI command**
 
-This was my first commit. I got feedback after my commit from a core maintainer to add a unit test. He also sent me relevant info on [snapshot testing on Jest Js](https://jestjs.io/docs/snapshot-testing) which I implemented. 
+Redwood is huge on open source and they are constantly working to making the contributing experience better. Redwood `rwfw` is a tool to help contributors sync the Redwood framework with Redwood project. I added a new CLI command `help` and `--help` so that users are able to get more information on the list of available commands and explanations on what it does. [Here is the PR](https://github.com/redwoodjs/redwood/pull/3085)!
 
-### Challenges and lessons
+## Challenges and lessons
 **Testing Code**
 - Learned how to use Jest to implement tests! 
 - How to run tests from the console.
@@ -57,17 +63,19 @@ Happy to report my [PR was merged](https://github.com/redwoodjs/redwood/pull/282
 
 # Google Site Kit
 
-### What do they do?
+## What do they do?
 
 Google Site Kit is a specialized team that provides a one-stop solution for WordPress users to integrate with Google APIs for them to be successful on the web.
 
-### Why did I choose Google Site Kit?
+## Why did I choose Google Site Kit?
 
 I was searching for `good-first-issue` tag in Github and they were one of the first to pop up! An opportunity to contribute to Google, why not?
 
-### What did I work on?
+## What did I work on?
+**1. Clean up unused SVGs**
 
-### Challenges and lessons
+Graphics that were used before are so longer needed after moving to inline svgs. I removed these files to prevent accumulation of tech debt. I also made sure no other file uses these files to avoid breaking any code in the entire repo.
+## Challenges and lessons
 
 **Mastering the Fork and Branch Git workflow**
 
@@ -81,7 +89,7 @@ I was searching for `good-first-issue` tag in Github and they were one of the fi
 - Learned more about their branching strategy called GitFlow that allows for parallel development.
 - Tips for writing proper code! 
   - Adhere to project code standards (WPCS, ESLint etc.)
-  - Apply DRY principal
+  - Apply [DRY principal](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
   - Add tests
   - Easily understandable by other developers; readability is more important than cleverness or brevity
 

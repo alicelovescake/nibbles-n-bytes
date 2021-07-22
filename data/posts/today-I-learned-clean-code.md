@@ -4,7 +4,7 @@ excerpt: "Interesting bits & bytes I'm learning about how to write more maintain
 coverImage: "/assets/blog/clean-code/cover.jpg"
 date: "2021-07-17"
 ogImage:
-  url: "/assets/blog/object/cover.jpg"
+  url: "/assets/blog/clean-code/cover.jpg"
 ---
 
 Building [SheetMenu](../projects/sheet-menu) has been a long and steady process. I just finished pulling restaurant data from Google Sheets. I use this data to display the restaurant's menu on their very own page!

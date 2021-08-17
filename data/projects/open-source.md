@@ -37,7 +37,27 @@ What are projects I've contributed to?
 I've built [projects](sheet-menu.md) on Redwood and love not only the tech but also the community! In fact, I joined a workshop ran by David Price, one of Redwood's co-founders (amazing, super nice person). I couldn't believe how welcoming everyone was to me. They've also invested heavily into supporting contributors...just check out the 8 pages of [notes here from the workshop](https://docs.google.com/document/d/16tMBiCMNZUrpGI_vQFvD6Cne8sKihGs0f1JraXfTIbg/edit?usp=sharing)
 
 ## What did I work on?
-**1. Fix Broken Scaffold**
+**1. Splash Page**
+
+Practically every RedwoodJS dev gets an eyeful of the splash page when they create a new Redwood app. Specifically the splash page is shown whenever there are no routes created or when routes are created but there is no home page. I took on the task of revamping the current welcome page to give it some pizzaz and flair. Here were the general considerations:
+- All markup and styles need to be within the component
+- Shouldn’t rely on TailwindCss
+- Supports Safari, Chrome, Firefox, etc.
+- Quick to load, so relatively lightweight
+- Friendly, engaging, exciting
+- Reflects mission and sentiment from [RedwoodJS Docs](https://redwoodjs.com/docs/introduction)
+- Shows release and version info
+
+This PR ended up being way more challenging than just HTML and CSS design! Not only did I build a new page from scratch but there were technical challenges that included:
+- Working with [Cypress](https://docs.cypress.io/guides/overview/why-cypress) to make sure our broken e2e tests passed
+- Querying the current Redwood version from the GraphQL API so the splash page always displays accurate version number. Also the version number is only conditionally rendered so that it only shows if the query is complete. 
+- Working with larger Redwood codebase to detect and display states in which no pages exists or when a page other than the home page exists. This was a bit tricky since I had to work with Typescript and some tricky logic. But super gratifying because not only did I fulfill my need but I also improved the overall DX. Prior to my change, a developer would get a 404 page if they try to navigate to a home page that didn't exist. Now they see my splash page!
+
+This PR has taken me a few weeks and it's not merged yet. But the best thing so far is getting a shoutout from one of the core contributors!
+
+![picture 1](../../images/f00f1638faa1a6a18024786cc83ca9154d79096ee65bf96dd45f522cf0a19825.png)  
+
+**2. Fix Broken Scaffold**
    
 There was an [issue](https://github.com/redwoodjs/redwood/issues/1482) in Redwood's codebase were templated code were generated for invalid models. 
   
@@ -45,14 +65,16 @@ There was an [issue](https://github.com/redwoodjs/redwood/issues/1482) in Redwoo
   
   This was my first commit. I got feedback after my commit from a core maintainer to add a unit test. He also sent me relevant info on [snapshot testing on Jest Js](https://jestjs.io/docs/snapshot-testing) which I implemented. 
 
-**2. Add new CLI command**
+**3. Add new CLI command**
 
 Redwood is huge on open source and they are constantly working to making the contributing experience better. Redwood `rwfw` is a tool to help contributors sync the Redwood framework with Redwood project. I added a new CLI command `help` and `--help` so that users are able to get more information on the list of available commands and explanations on what it does. [Here is the PR](https://github.com/redwoodjs/redwood/pull/3085)!
 
 ## Challenges and lessons
 **Testing Code**
+**Testing Code**
 - Learned how to use Jest to implement tests! 
 - How to run tests from the console.
+  
   
 **Collaboration with Others**
 - I linked to related issues in PR to help reviewers follow tail leading up to this PR

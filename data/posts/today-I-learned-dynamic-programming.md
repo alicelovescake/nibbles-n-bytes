@@ -72,3 +72,5 @@ Approach 4: Pointers/ Iterative: If recurrence is only based on previous few sub
 
 [Check out](today-I-learned-algorithm-patterns.md) other algo patterns I've learned! 
 
+[Check out](https://www.freecodecamp.org/news/follow-these-steps-to-solve-any-dynamic-programming-interview-problem-cc98e508cd0e/) to see more examples of strategies to solve DP problems!
+

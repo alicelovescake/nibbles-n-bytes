@@ -40,6 +40,7 @@ I've built [projects](sheet-menu.md) on Redwood and love not only the tech but a
 **1. Splash Page**
 
 Practically every RedwoodJS dev gets an eyeful of the splash page when they create a new Redwood app. Specifically the splash page is shown whenever there are no routes created or when routes are created but there is no home page. I took on the task of revamping the current welcome page to give it some pizzaz and flair. Here were the general considerations:
+
 - All markup and styles need to be within the component
 - Shouldn’t rely on TailwindCss
 - Supports Safari, Chrome, Firefox, etc.
@@ -48,7 +49,8 @@ Practically every RedwoodJS dev gets an eyeful of the splash page when they crea
 - Reflects mission and sentiment from [RedwoodJS Docs](https://redwoodjs.com/docs/introduction)
 - Shows release and version info
 
-This PR ended up being way more challenging than just HTML and CSS design! Not only did I build a new page from scratch but there were technical challenges that included:
+[This PR](https://github.com/redwoodjs/redwood/pull/3183) ended up being way more challenging than just HTML and CSS design! Not only did I build a new page from scratch but there were technical challenges that included:
+
 - Working with [Cypress](https://docs.cypress.io/guides/overview/why-cypress) to make sure our broken e2e tests passed
 - Querying the current Redwood version from the GraphQL API so the splash page always displays accurate version number. Also the version number is only conditionally rendered so that it only shows if the query is complete. 
 - Working with larger Redwood codebase to detect and display states in which no pages exists or when a page other than the home page exists. This was a bit tricky since I had to work with Typescript and some tricky logic. But super gratifying because not only did I fulfill my need but I also improved the overall DX. Prior to my change, a developer would get a 404 page if they try to navigate to a home page that didn't exist. Now they see my splash page!
@@ -70,11 +72,14 @@ There was an [issue](https://github.com/redwoodjs/redwood/issues/1482) in Redwoo
 Redwood is huge on open source and they are constantly working to making the contributing experience better. Redwood `rwfw` is a tool to help contributors sync the Redwood framework with Redwood project. I added a new CLI command `help` and `--help` so that users are able to get more information on the list of available commands and explanations on what it does. [Here is the PR](https://github.com/redwoodjs/redwood/pull/3085)!
 
 ## Challenges and lessons
-**Testing Code**
+**Setting up Dev Environment**
+- The most challenging part and time consuming is getting connected to the Redwood framework. 
+- Redwood is constantly changing. I have to pull new changes and install new dependencies
+- Half the time is debugging how to get the dev environment running and projects linked!
+  
 **Testing Code**
 - Learned how to use Jest to implement tests! 
 - How to run tests from the console.
-  
   
 **Collaboration with Others**
 - I linked to related issues in PR to help reviewers follow tail leading up to this PR

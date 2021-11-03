@@ -29,7 +29,7 @@ Over the last two months, I’ve settled into my first technical role at a compa
 
 *“The scale of the challenge is enormous, but we're lucky to be a part of this — to be able to help solve how we shift our planet’s energy and transportation systems entirely away from fossil fuel."*
 
-Although Rivian’s mission is no easy feat, every Rivian employee I’ve met so far has greeted the unknown with open arms. They put their fears aside in order to do their part to leave the planet better than they found it. They’ve inspired me to harness the adventurous spirit again. To free myself of self-doubt and get comfortable with the uncomfortable.
+Although Rivian’s mission is no easy feat, every Rivian employee I’ve met so far has greeted the unknown with open arms. They put their fears aside to stop at nothing to leave the planet better than they found it. They’ve inspired me to harness the adventurous spirit again. To free myself of self-doubt and get comfortable with the uncomfortable.
 
 My word is **Adventurous**.
 

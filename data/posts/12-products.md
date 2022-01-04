@@ -25,7 +25,7 @@ Over the next 12 months, I'm going to aim to build 12 different products (web, m
 
 ## Monthly milestones
 
-Each month, my partner and I will pick a new idea from our backlog and set forth on defining an MVP of the product. Once we create user stories and a feature set that's doable in a month's time, we will create sprint tickets for the work to be done. Want to follow along? Check out our [public Notion page](https://batteries.notion.site/batteries/12-Products-45c32d127b274f67b44684c5e1c2dd1b)!
+Each month, [my partner](https://anthonymorris.dev/) and I will pick a new idea from our backlog and set forth on defining an MVP of the product. Once we create user stories and a feature set that's doable in a month's time, we will create sprint tickets for the work to be done. Want to follow along? Check out our [public Notion page](https://batteries.notion.site/batteries/12-Products-45c32d127b274f67b44684c5e1c2dd1b)!
 
 ## How can you stay in touch with what we are working on? 
 

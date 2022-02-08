@@ -9,17 +9,15 @@ ogImage:
 
 Albert Einstein once said time is an illusion. I'll tell you what, time sure feels real when you need to launch a product within 30 days!
 
-This week, I'm excited to announce the launch of [Poke on the Apple App Store](https://apps.apple.com/ca/app/poke/id1607699386)! It's the first product my partner and I've created on our quest to build [12 products in 12 months](https://alicezhao.com/posts/12-products).
+This week, I'm excited to announce the launch of Poke on the [Apple App Store](https://apps.apple.com/ca/app/poke/id1607699386)! It's the first product my partner and I've created on our quest to build [12 products in 12 months](https://alicezhao.com/posts/12-products).
 
 Here's a recap and lessons I learned along the way.
 
 ## 👷‍♀️ What did we build?
 
-I don't know about you but it sure is hard for me to remember to do things. It can be anything - hitting the gym, calling an old friend, or taking out the trash. With all best intentions, I still let stuff slip through the cracks. That is why I'm so excited to launch Poke! Poke remembers so you don't have to. Poke will keep you accountable by sending you scheduled reminders via text!
+Check out the demo!
 
-- Schedule text-based reminders for goals, todos, or affirmations
-- Be help accountable for your goals
-- A tool that meets you where you are at (text messages), no more notifications.
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/ee690b6aec284a2f9a571023e2f754c2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## 🔨 How did we build it?
 
@@ -35,7 +33,9 @@ I don't know about you but it sure is hard for me to remember to do things. It c
 
 > [React Navigation](https://reactnavigation.org/) : Package for routing and navigation
 
-**Easy to use**: I had to give a special shoutout to this library for making my life so easy when it came to seamless navigation between screens.
+> [Flipper](https://fbflipper.com/) : Extensible mobile app debugger
+
+**Easy to use**: I had to give a special shoutout to these companions for making my life so easy when it came to seamless navigation between screens and solving bugs!
 
 ### Backend framework
 
@@ -53,7 +53,7 @@ I don't know about you but it sure is hard for me to remember to do things. It c
 
 ## 💡 Challenges & Lessons Learned
 
-### Building in Public is fun!
+### Building in Public is scary but fun!
 
 Building in public makes me feel very self conscious. Suddenly I'm not struggling to solve a bug on my own but people are watching me as I do it. Every Sunday at 12 pm PST, my partner and I [stream on Twitch](https://www.twitch.tv/12products), alternating who codes each time.
 
@@ -63,7 +63,7 @@ During one of the streams where I was coding, 78 people viewed me stumble my way
 
 I found a great [Youtube tutorial](https://www.youtube.com/channel/UCMCcqbJpyL3LAv3PJeYz2bg) that walked through how to build your first React Native app. As I followed along, I suddenly felt shame in copying some of the code in the video. Am I really practicing to become a good engineer if I don't write original code? Am I taking shortcuts by taking someone else's code?
 
-At the end of the day, I'm incredibly grateful for the plethora of online resources to enable beginner and even senior developers to be successful. Yes, I've copied code from tutorials and gotten answers from StackOverflow, but I'm also building and learning along the way. So I think copying code is not cheating, it is part of learning!
+At the end of the day, I'm incredibly grateful for the plethora of online resources to enable developers to be successful. Yes, I've copied code from tutorials and gotten answers from StackOverflow, but I'm also building and learning along the way. So maybe copying code is not cheating, it is part of learning!
 
 ### Do to Learn
 
@@ -73,6 +73,6 @@ There are so many buzzwords in technical documentation that I can read something
 
 If you were me, you would be thinking - What the hell is an interface? How does a protocol work? What is the difference between REST and HTTP? What does an application software look like?
 
-What I learned is that you have to do to learn. You have to throw yourself to the unknown and face the problems head on to actually understand the tools and concepts. Coding is _not_ something you learn in a textbook or watch in a tutorial. Coding is something you learn by hacking and getting out of your comfort zone. Trying all these new tools building Poke this month has helped me grow a ton!
+What I learned is that you have to _do_ to learn. You have to throw yourself to the unknown and face the problems head on to actually understand the tools and concepts. Coding is _not_ something you learn in a textbook or watch in a tutorial. Coding is something you learn by hacking and getting out of your comfort zone. Trying all these new tools building Poke this month has helped me grow a ton!
 
-Check out [12product's Github](https://github.com/12products) for all our open source code. You might get a sneak peak into our February product!
+Check out [12product's Github](https://github.com/12products) for all our _open source_ code and our [website](https://www.12products.xyz/) to follow along. You might get a sneak peak into our February product!

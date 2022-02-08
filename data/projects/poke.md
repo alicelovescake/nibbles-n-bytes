@@ -74,3 +74,5 @@ There are so many buzzwords in technical documentation that I can read something
 If you were me, you would be thinking - What the hell is an interface? How does a protocol work? What is the difference between REST and HTTP? What does an application software look like?
 
 What I learned is that you have to do to learn. You have to throw yourself to the unknown and face the problems head on to actually understand the tools and concepts. Coding is _not_ something you learn in a textbook or watch in a tutorial. Coding is something you learn by hacking and getting out of your comfort zone. Trying all these new tools building Poke this month has helped me grow a ton!
+
+Check out [12product's Github](https://github.com/12products) for all our open source code. You might get a sneak peak into our February product!

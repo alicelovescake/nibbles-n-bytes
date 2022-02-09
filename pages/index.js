@@ -9,7 +9,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { IoIosArrowRoundDown } from "react-icons/io";
 
-export default function Index({ latestPost }) {
+export default function Index({ latestPost, lastestProject }) {
   const router = useRouter();
 
   return (
@@ -73,14 +73,12 @@ export default function Index({ latestPost }) {
 
             <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-4">
               <Polaroid
-                image="assets/projects/sheet-menu/cover.png"
-                route="/projects/sheet-menu"
+                image={lastestProject.coverImage}
+                route={`/projects/${lastestProject.slug}`}
                 rotate="hover:rotate-3"
               >
-                <p className="font-bold">SheetMenu</p>
-                <p className="text-xs">
-                Helping restaurants deploy professional websites in under fifteen minutes
-                </p>
+                <p className="font-bold">{lastestProject.title}</p>
+                <p className="text-xs">{lastestProject.excerpt}</p>
               </Polaroid>
 
               <Polaroid
@@ -144,9 +142,17 @@ export async function getStaticProps() {
     "excerpt",
   ]);
 
+  const allProjects = getAllContent("projects", [
+    "title",
+    "date",
+    "slug",
+    "coverImage",
+    "excerpt",
+  ]);
   const latestPost = allPosts[0];
+  const lastestProject = allProjects[0];
 
   return {
-    props: { latestPost },
+    props: { latestPost, lastestProject },
   };
 }

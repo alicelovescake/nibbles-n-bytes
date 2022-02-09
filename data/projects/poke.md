@@ -9,7 +9,7 @@ ogImage:
 
 Albert Einstein once said time is an illusion. I'll tell you what, time sure feels real when you need to launch a product within 30 days!
 
-This week, I'm excited to announce the launch of Poke on the [Apple App Store](https://apps.apple.com/ca/app/poke/id1607699386)! It's the first product my partner and I've created on our quest to build [12 products in 12 months](https://alicezhao.com/posts/12-products).
+This week, I'm excited to release Poke to the [Apple App Store](https://apps.apple.com/ca/app/poke/id1607699386)! It's the first product my partner and I've created on our quest to build [12 products in 12 months](https://alicezhao.com/posts/12-products).
 
 Here's a recap and lessons I learned along the way.
 

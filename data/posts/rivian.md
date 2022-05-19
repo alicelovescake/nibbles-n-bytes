@@ -71,7 +71,7 @@ At Rivian, I was treated like a real engineer even though I had zero experience.
 
 ## 7. Take ownership, even if you are just an intern.
 
-Some people might think interns just make a wicked pot coffee. But right from the start, Rivian gave me the opportunity to take ownership for the projects I worked on. It was a 2 way street. The senior leads on the project made me feel included by asking for my option and feedback on architecture decisions and involving me in every meeting with the product manager, designers, and brainstorming sessions. In return, I contributed by not only fixing bugs but taking an active role in driving the project forward. When I had questions about the data model, the backend lead asked me to design my own version and we were able to discuss the pros and cons of each approach after.
+Some people might think interns just make a wicked pot coffee. But right from the start, Rivian gave me the opportunity to take ownership for the projects I worked on. It was a 2 way street. The senior leads on the project made me feel included by asking for my opinion and feedback on architecture decisions and involving me in every meeting with the product manager, designers, and brainstorming sessions. In return, I contributed by not only fixing bugs but taking an active role in driving the project forward. When I had questions about the data model, the backend lead asked me to design my own version and we were able to discuss the pros and cons of each approach after.
 
 > Whether you are an intern or the CTO, having a sense of ownership results in making decisions with more thought, responsibility and care!
 

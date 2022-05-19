@@ -34,7 +34,10 @@
 
 .markdown blockquote {
   @apply bg-brand-yellow font-bold text-black mx-8 p-6 rounded-lg ;
+}
 
+.markdown blockquote a {
+  @apply text-black underline;
 }
 
 .markdown blockquote p {

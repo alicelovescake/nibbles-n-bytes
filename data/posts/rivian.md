@@ -25,7 +25,7 @@ Everything seems hard as a new developer. In the first few weeks I remember bein
 
 > It’s what you learn while sucking that makes it all worth it.
 
-## 3. Always Ask Why
+## 3. Always ask why.
 
 Ask why is one of Rivian’s 5 core values. It has taught me to challenge assumptions and constantly ask why when figuring out how something works. When I was tasked with creating a new [Kubernetes](https://kubernetes.io/) repo, I reviewed other repos and noticed they were all using similar templates.
 

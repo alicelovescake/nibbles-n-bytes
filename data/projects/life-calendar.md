@@ -1,6 +1,6 @@
 ---
 title: "Life Calendar Chrome Extension"
-excerpt: "Visualize your life in weeks to size the day!"
+excerpt: "Visualize your life in weeks to seize the day!"
 coverImage: "/assets/projects/life-calendar/project-life-calendar.png"
 date: "2020-07-10"
 ogImage:

@@ -100,6 +100,6 @@ Know the 6 cases that 2 intervals (a, b) can relate to each other:
   - if there is any label not excluded, then assign that label to `I_j`
   - else leave `I_j` unlabeled
 
-- No overlapping intervals will receive same label. You have d labels, as you sweep through the intervals from left to right, assigning an available label to each interal, you cannot reach a point where all labels are in use
+- No overlapping intervals will receive same label. You have d labels, as you sweep through the intervals from left to right, assigning an available label to each interval, you cannot reach a point where all labels are in use
 - **Schedule to Minimize Lateness** Single resource, multiple requests, different deadline: Minimize overall lateness
 - Rule: Earliest deadline first: Sort jobs in increasing order of deadlines

@@ -33,7 +33,7 @@ Notion wasn't just a workplace; it was a community. Together, we fed > 200 famil
 
 These experiences, along with the friendships I've formed at Notion, have instilled in me a sense of belonging. It’s a place where I can be myself, roll up my sleeves and contribute my best work. And you know what’s even better? I hope to keep on making room for others to do the same!
 
-## 3. Ownership is a mindset.
+## 3. Embrace Eudaemonia and own your journey, including mistakes.
 
 At Notion, one of the values that stuck close to my heart was our commitment to “eudaemonia”, a Greek concept that champions fulfillment through hard work and continuous learning. To me, embracing eudaemonia meant taking ownership, even as an intern. One of the scariest moments during my internship was when I caused an incident that required a hot fix. Making a mistake felt devastating. However, it served as a reminder that setbacks are part of the journey, offering invaluable opportunities for learning and improvement.
 

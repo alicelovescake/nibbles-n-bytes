@@ -55,4 +55,4 @@ Check out these resources for navigating the recruitment process at Notion!
 >
 > ➡️ Don't just trust my experiences, hear from the other interns on their takeaways! 🔗 [Link](https://www.notion.so/notion/Notion-Intern-Spotlight-d0260c4e2317490db89f367d95cb4e68)
 
-Check out my previous post on [8 lessons I've learned in 8 months at Rivian](/posts/rivian). Also look out for a future post on my learnings at [Stripe](https://stripe.com/en-ca)!
+🚀 Want more insights? Check out my previous post on [8 lessons I've learned in 8 months at Rivian](/posts/rivian). Also stay tuned for my upcoming post on my experiences at [Stripe](https://stripe.com/en-ca)!

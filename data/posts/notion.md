@@ -41,7 +41,7 @@ I came to realize that true ownership meant taking responsibility not only for o
 
 So what are you waiting for? Notion’s [internship applications](https://app.ripplematch.com/company/notion/?tl=d1e680d2) are now open!
 
-Check out these resources for navigating the recruitment process:
+I frequently get questions about interviews, and one thing I'd like to note is that the assessments at Notion are not like the typical Leetcode-style challenges. Instead, they lean more towards practical challenges that assess your debugging and problem-solving skills. Check out these resources for navigating the recruitment process at Notion:
 
 > ➡️ Internship Application
 > 🔗 [Link](https://app.ripplematch.com/company/notion/?tl=d1e680d2)
